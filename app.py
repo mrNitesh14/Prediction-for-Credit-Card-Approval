@@ -26,6 +26,6 @@ if st.button('Predict'):
 
     # Display the prediction
     if prediction[0] == 1:
-        st.write('Credit Card Approved')
-    else:
         st.write('Credit Card Not Approved')
+    else:
+        st.write('Credit Card Approved')
